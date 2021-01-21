@@ -1,0 +1,49 @@
+{
+  "name": "enduseritam",
+  "version": "1.0.2",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashwinimay1992/ITAMPublic.git"
+  },
+  "build": {
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "author": "CrestIT",
+  "license": "ISC",
+  "devDependencies": {
+    "auto-launch": "^5.0.5",
+    "child_process": "^1.0.2",
+    "csvtojson": "^2.0.10",
+    "electron": "^11.2.0",
+    "electron-builder": "^22.9.1",
+    "electron-log": "^4.3.1",
+    "electron-updater": "^4.3.5",
+    "fs": "0.0.1-security",
+    "ip": "^1.1.5",
+    "jquery": "^3.5.1",
+    "node-cron": "^2.0.3",
+    "node-powershell": "^4.0.0",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "child_process": "^1.0.2",
+    "csvtojson": "^2.0.10",
+    "electron-log": "^4.3.1",
+    "electron-updater": "^4.3.5",
+    "fs": "0.0.1-security",
+    "ip": "^1.1.5",
+    "jquery": "^3.5.1",
+    "node-cron": "^2.0.3",
+    "node-powershell": "^4.0.0",
+    "request": "^2.88.2"
+  }
+}
